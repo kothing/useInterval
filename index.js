@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const useInterval = (callback, delay) {
+const useInterval = (callback, delay) => {
   const savedCallback = useRef();
 
   // 保存新回调
